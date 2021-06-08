@@ -1,0 +1,411 @@
+*{margin: 0px;padding: 0px;text-decoration: none;}
+
+header{width: 100%;height: 110px;background-color: white; border-bottom: 5px solid #E9559A;
+display: flex;justify-content: center; align-items: center; position: fixed; z-index: 999;}
+nav{width: 1280px;height: 132px;padding-top: 50px}
+
+nav > ul{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;height: 71px;}
+nav > ul > li{display: flex;justify-content: center;align-items: center;list-style: none;font-size: 17px;font-family: 'Noto Sans KR', sans-serif;font-weight: 300;}
+nav > ul > li > a{color: black;}
+nav > ul > li > a:hover{color: #E9559A;transform: scale(1.1,1.1);transition: 0.1s;}
+.top_padding{padding-top: 30px;}
+.main1{width: 100%;height: 0px;}
+.title1{position: relative; top:600px;}
+.img1{position: relative; top:550px; width: 100%;height: 277px;border: 0px solid red;display: inline;}
+.img2{position: relative; top:1010px; right: 10%; width: 100%;height: 277px;border: 0px solid red;display: inline;}
+.title2{position: relative; top:1800px;}
+.video1{position: relative; top:1600px;}
+.title3{position: relative; top:1863px;}
+.body1{position: relative; top:1913px;}
+.sub1{position: relative; left: 54%; top:1863px;}
+.body2{position: relative; top:2013px;}
+.text3{position: absolute; top: 100px; left: 16%;}
+.line{position: absolute; top: 2583px; left: 30%;}
+
+footer{position: relative; top: 5300px; background-color: #EE7FB3;width: 100%;height: 170px;padding-top: 30px;}
+.footer2{display: inline;}
+.text1{padding-top: 15px;}
+.hover:hover{opacity: 0.7;transition: 0.1s;}
+.footer3{padding-top: 30px;}
+.footer4{position: relative; left: 49%;}
+
+.kenburns-top{animation:kenburns-top 5s ease-out .5s both}
+@keyframes kenburns-top{0%{transform:scale(1) translateY(0);transform-origin:50% 16%}100%{transform:scale(1.25) translateY(-15px);transform-origin:top}}
+
+.OMG{
+  position: relative;
+  top: 2000px;
+  left: 29.1%;
+  width: 301px;
+  height: 25px;
+  -webkit-text-stroke: 0.5px #e9559a;
+  font-family: NotoSansCJKkr;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e9579a;
+}
+
+.OMG2{
+  position: relative;
+  top: 1974px;
+  left: 39%;
+  width: 301px;
+  height: 25px;
+  -webkit-text-stroke: 0.5px #e9559a;
+  font-family: NotoSansCJKkr;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e9579a;
+}
+
+.text2{
+  position: relative;
+  top: 1980px;
+  left: 15.6%;
+  width: 769px;
+  height: 426px;
+  margin: 26px 255px 178px 256px;
+  font-family: KoPubWorldDotum;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+
+#_15 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._15 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 265px;
+	top: 2500px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__Mimi {
+	left: 319.5px;
+	top: 2459.5px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#_16 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._16 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 533px;
+	top: 2500px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__Seunghee {
+	left: 564.5px;
+	top: 2459.5px;
+	position: absolute;
+	overflow: visible;
+	width: 137px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#_17 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._17 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 809px;
+	top: 2500px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__Yooa {
+	left: 863.5px;
+	top: 2459.5px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#PART_Rap_BIRTHDAY_950501_BLOOD {
+	left: 267px;
+	top: 2517px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+#PART_Lead_Vocal_BIRTHDAY_96012 {
+	left: 530px;
+	top: 2517px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+#PART_Vocal_BIRTHDAY_950917_BLO {
+	left: 809px;
+	top: 2517px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+#__Hyojung {
+	left: 705px;
+	top: 1997px;
+	position: absolute;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#_11 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._11 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 148.5px;
+	top: 2037px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__ARIN {
+	left: 203px;
+	top: 1997px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#_12 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._12 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 405px;
+	top: 2037px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#__Binnie {
+	left: 452.5px;
+	top: 1997px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#_13 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._13 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 666.5px;
+	top: 2037px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#PART_Vocal_BIRTHDAY_990618_BLO {
+	left: 148px;
+	top: 2053px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+#PART_Vocal_BIRTHDAY_970909_BLO {
+	left: 405px;
+	top: 2053px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+#PART_Lead_Vocal_Team_leader_BI {
+	left: 666px;
+	top: 2053px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
+#_14 {
+	fill: transparent;
+	stroke: rgba(233,86,154,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._14 {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 1px;
+	left: 927px;
+	top: 2042px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_Jiho {
+	left: 986.5px;
+	top: 2001.5px;
+	position: absolute;
+	overflow: visible;
+	width: 81px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Noto Sans CJK KR;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(234,91,158,1);
+}
+#PART_Vocal_BIRTHDAY_970404_BLO {
+	left: 927px;
+	top: 2053px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	height: 83px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(112,112,112,1);
+}
